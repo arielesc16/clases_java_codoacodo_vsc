@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 03</title>
+
+    <link rel="stylesheet" href="../clase3/css/style.css">   
+    <!-- CSS Archivo EXTERNO-->
+    
+    <style>
+
+        body{
+            background-color: rgb(166, 155, 170);
+        }
+
+        #etiquetas_html{                                      /* 01_jerarquia */
+            background-color: rgb(27, 17, 29) !important;
+            color: white;
+            width: 80%;
+            text-decoration: none;
+        }
+
+        .azul{
+            background-color: rgb(37, 37, 146);
+            text-decoration: none;
+        }
+
+        div{
+            background-color: rgb(105, 28, 91);  /* 02_jerarquia_importante */
+            padding-top: 1px;
+            padding-bottom: 25px;
+        }
+
+
+    </style>
+
+</head>
+
+<body style="background-color: rgb(47, 119, 83);">        <!-- inline | prioridad maxima -->
+    
+    <!-- CSS Estilos (Jerarquias - Estilos de CASCADA):
+
+            0.  !important
+            1.  Inline              | style dentro de la misma linea
+            2.  Head                | style dentro del head html
+            3.  Archivo Externo     | style en un archivo externo .css
+
+            Etiqueta !important establece maxima jerarquia en un elemento/linea
+
+            Selector para varios elementos: class
+            Selector para unico elemento:   id (unico)
+
+            id:     #nombre_de_id       | Se  usa "numeral" (#) como prefijo    (string)
+            class:  .nombre_de_clase    | Se usa "punto" (.) como prefijo       (array o arreglo)
+
+    -->
+    
+    <div id="etiquetas_html">
+        <h2>Etiquetas HTML</h2>
+        <ol>
+            <li class="azul"><a href="#div_head">head</a></li>
+            <li><a href="#div_select">select</a></li>
+            <li><a href="#div_ancla">a (ancla)</a></li>
+            <li style="background-color: rgb(197, 22, 22);">form, input</li>
+            <li><a href="#div_table">table</a></li>
+            <li>tbody</li>
+            <li class="azul">thead</li>
+            <li>tr</li>
+            <li>th y td</li>
+            <li>ol, ul y li</li>
+            <li class="azul">label</li>
+            <li>iframe</li>
+            <li>video</li>
+            <li>img</li>            
+       </ol>
+
+    </div>
+
+    <p id="p_html">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias amet optio laboriosam, sequi voluptatem? Perspiciatis eius nihil fugit nemo voluptate dolorem, accusantium ipsam voluptas reiciendis adipisci aperiam temporibus molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias amet optio laboriosam, sequi voluptatem? Perspiciatis eius nihil fugit nemo voluptate dolorem, accusantium ipsam voluptas reiciendis adipisci aperiam temporibus molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias amet optio laboriosam, sequi voluptatem? Perspiciatis eius nihil fugit nemo voluptate dolorem, accusantium ipsam voluptas reiciendis adipisci aperiam temporibus molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias amet optio laboriosam, sequi voluptatem? Perspiciatis eius nihil fugit nemo voluptate dolorem, accusantium ipsam voluptas reiciendis adipisci aperiam temporibus molestias.
+    </p>
+
+    <a href="../clase1/pages/2dapagina.html" id="ancla_page2" target="_blank">Ir a PAGINA 2 | Clase 01</a>
+
+    <br>
+    <br>
+    <div id="div_head">
+        <h2>head</h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos!
+        </p>
+    </div>
+
+    <br>
+    <div id="div_select">
+        <h2>select</h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos!
+        </p>
+    </div>
+
+    <br>
+    <div id="div_ancla">
+        <h2>a (ancla)</h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos!
+        </p>
+    </div>
+
+    <br>
+    <div id="div_table">
+        <h2>table</h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate facilis magnam illum perferendis harum accusantium consectetur inventore libero sint minus fugiat non veritatis nisi, vitae nesciunt fugit amet et quos!
+        </p>
+    </div>
+
+
+
+
+</body>
+
+</html>

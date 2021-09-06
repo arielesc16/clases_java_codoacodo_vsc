@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 02</title>
+
+    <style>
+        h1{
+            color: white;
+            background-color: black;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            width: 100%;
+        }
+        
+        ul{
+            padding-top: 10px;
+            padding-bottom: 5px;
+            height: 25px;
+            background-color: rgb(139, 136, 136);
+        }
+
+        li{
+            padding-inline: 8px;
+            padding-left: px;
+            color: black;
+            display: inline;
+        }
+
+        body{
+            background-color: rgb(206, 185, 185);
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <!-- Titulo de la Pagina-->
+    <div>
+        <h1>Buildings | Test Page</h1>
+        <ul>
+            <li><a href="#img_building">Imagenes</a></li>
+            <li><a href="#video_unidad2">Unidad 2</a></li>
+            <li><a href="#contact_form">Formulario de Contacto</a></li>
+        </ul>
+   </div>
+
+    <!-- Imagenes -->
+    <div>
+        <h3 id="img_building">Imagen | Ruta Absoluta</h3> 
+        <!-- Enlace Web -->
+        <img src="https://c.wallhere.com/photos/75/7e/cityscape_building_Manhattan_orange_color-1334563.jpg!d" alt="Manhattan Buildings | Orange" width="640px">
+
+        <h3>Imagen | Ruta Relativa</h3> 
+        <!-- Archivo Local -->
+        <img src="../clase2/img/wallpaper.jpeg" alt="Buildings Background | Orange" width="640px">
+        
+        <h3>Video | Biblioteca Nacional, Buenos Aires</h3>
+        <iframe width="640px" height="480px" src="https://www.youtube.com/embed/BBckf08i0Mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <!-- Unidad 2 -->
+    <div>
+        <h3>Descargar Pdf | Unidad 2</h3>
+        <a href="../clase2/file/Unidad 2.pdf" target="_blank" download="">Click aquí</a>
+
+        <h3 id="video_unidad2">Video | Repaso Unidad 2</h3>
+        <!-- Archivo Local | No ainsertado por superar 100mb disponibles por clip en GITHUB -->
+        <!-- "../clase2/video/Codo a codo FullStack Java (2021-08-05 at 10_06 GMT-7)_02.mp4" -->
+        <video src="" width="640px" title="repaso_unidad_2_codoacodo" allow="accelerometer" controls></video>
+        
+        <p>
+            <b>Lorem</b> ipsum dolor sit amet consectetur, adipisicing elit. Repellendus eveniet eos fugit, facere ipsum ullam fuga nemo! Dicta quam tenetur accusantium excepturi obcaecati, facilis, asperiores facere ipsum deserunt at mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, libero esse exercitationem dolor mollitia, perferendis adipisci nisi harum odit amet quis! Blanditiis voluptatum accusantium explicabo illo eos quis labore nisi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, reiciendis architecto corporis sunt, dolorem recusandae maxime a tempora eveniet minus ea error repellat dignissimos labore adipisci. Sunt, animi asperiores? Laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa similique, cupiditate numquam architecto, praesentium perferendis ipsum vitae perspiciatis consectetur rem nulla sunt nisi libero quaerat maiores fugit laboriosam, dicta quis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus eveniet eos fugit, facere ipsum ullam fuga nemo! Dicta quam tenetur accusantium excepturi obcaecati, facilis, asperiores facere ipsum deserunt at mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, libero esse exercitationem dolor mollitia, perferendis adipisci nisi harum odit amet quis! Blanditiis voluptatum accusantium explicabo illo eos quis labore nisi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, reiciendis architecto corporis sunt, dolorem recusandae maxime a tempora eveniet minus ea error repellat dignissimos labore adipisci. Sunt, animi asperiores? Laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa similique, cupiditate numquam architecto, praesentium perferendis ipsum vitae perspiciatis consectetur rem nulla sunt nisi libero quaerat maiores fugit laboriosam, dicta quis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus eveniet eos fugit, facere ipsum ullam fuga nemo! Dicta quam tenetur accusantium excepturi obcaecati, facilis, asperiores facere ipsum deserunt at mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, libero esse exercitationem dolor mollitia, perferendis adipisci nisi harum odit amet quis! Blanditiis voluptatum accusantium explicabo illo eos quis labore nisi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, reiciendis architecto corporis sunt, dolorem recusandae maxime a tempora eveniet minus ea error repellat dignissimos labore adipisci. Sunt, animi asperiores? Laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa similique, cupiditate numquam architecto, praesentium perferendis ipsum vitae perspiciatis consectetur rem nulla sunt nisi libero quaerat maiores fugit laboriosam, dicta quis.
+        </p>
+    </div>  
+
+    <!-- Formulario -->
+    <div>
+        <h3 id="contact_form">Formulario de Contacto</h3>
+        <form action="" method="get">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="">
+            <br>
+            <br>
+
+            <label for="last_name">Apellido</label>
+            <input type="text" name="last_name" id="">
+            <br>
+            <br>
+
+            <label for="edad">Edad</label>
+            <select name="edad" id="">
+                <option value="1">16-20</option>
+                <option value="2">20-30</option>
+                <option value="3">30-40</option>
+                <option value="4">40-50</option>
+                <option value="5">50-60</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="mail">Correo</label>
+            <input type="text" name="mail" id="">
+            <br>
+            <br>
+
+            <label for="user">Usuario</label>
+            <input type="text" name="user" id="">
+            <br>
+            <br>
+
+            <label for="pass">Contraseña</label>
+            <input type="text" name="pass" id="">
+            <br>
+            <br>
+    
+            <label for="provincia">Ubicación</label>
+            <br>
+            <label for="provincia">Buenos Aires</label>
+            <input type="radio" name="provincia" id="">
+            <label for="provincia">Gran Bs. As.</label>
+            <input type="radio" name="provincia" id="">
+            <label for="provincia">C.A.B.A.</label>
+            <input type="radio" name="provincia" id="">
+            <br>
+            <br>
+
+            <label for="">Conocimientos en programación</label>
+            <br>
+            <label for="html">Html</label>
+            <input type="checkbox" name="html" id="">
+
+            <label for="css">Css</label>
+            <input type="checkbox" name="css" id="">
+
+            <label for="javascript">JavaScript</label>
+            <input type="checkbox" name="javascript" id="">
+
+            <label for="java">Java</label>
+            <input type="checkbox" name="java" id="">    
+            
+            <label for="python">Python</label>
+            <input type="checkbox" name="python" id="">
+
+            <label for="nodejs">Node Js</label>
+            <input type="checkbox" name="nodejs" id="">
+
+            <label for="php">Php</label>
+            <input type="checkbox" name="php" id="">
+            
+            <label for="others">Otros</label>
+            <input type="checkbox" name="others" id="">
+            
+            
+
+            <br>
+            <br>
+            <input type="submit" value="Enviar" onclick="alert('Los datos se han enviado correctamente.')">
+        </form>
+    </div>
+
+</body>
+
+</html>

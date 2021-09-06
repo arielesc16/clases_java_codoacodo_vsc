@@ -1,0 +1,81 @@
+body{
+    background-color: rgba(72, 137, 235, 0.74);
+}
+
+#ancla_page2{
+    background-color: rgb(27, 17, 29);
+    color: white;
+    text-decoration: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.774);
+}
+
+#ancla_page2:hover{
+    /* Color y atributos al apoyar el cursor por encima del elemento */
+    background-color: rgba(255, 51, 0, 0.8);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.555);
+    transition: 500ms;
+
+}
+
+#p_html{                                      
+    background-color: rgb(105, 28, 91);
+    color: white;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    /* padding-left: 20px; | Margen hacia la izquierda */
+}
+
+h2{
+    padding-bottom: 15px;
+}
+
+li{
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    border: 2px solid white;
+    margin: 3px;
+    background-color: hsla(290, 26%, 9%, 0.70);
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.774);
+    
+}
+
+li:hover{
+    /* Color y atributos al apoyar el cursor por encima del elemento */
+    background-color: rgba(255, 51, 0, 0.50);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.555);
+    transition: 500ms;
+    
+}
+
+#div_head{
+    color: rgb(223, 222, 222);
+    width: 80%;
+}
+
+#div_select{
+    color: rgb(223, 222, 222);
+    width: 80%;
+}
+
+#div_ancla{
+    color: rgb(223, 222, 222);
+    width: 80%;
+}
+
+#div_table{
+    color: rgb(223, 222, 222);
+    width: 80%;
+}
+
+
+
+
